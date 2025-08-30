@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Clothify - Catalog</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    .category-container {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .category {
+      width: 200px;
+      text-align: center;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .category h3 {
+      margin-bottom: 10px;
+      font-size: 18px;
+      color: #2980b9;
+    }
+
+    .category img {
+      width: 100%;
+      height: auto;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: transform 0.2s ease;
+    }
+
+    .category img:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Clothify Shopping</h1>
+    <nav>
+      <a href="log.html">Logout</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Categories</h2>
+    <div class="category-container">
+      <div class="category">
+        <h3>Men Wear</h3>
+        <a href="product.html">
+          <img src="https://i.pinimg.com/474x/dc/d4/0d/dcd40d9a7f9cf6a52e6cd4b2b93b15f6.jpg" alt="Men Shirt">
+        </a>
+      </div>
+      <div class="category">
+        <h3>Women Wear</h3>
+        <a href="product.html">
+          <img src="https://images.meesho.com/images/products/328393989/9d69c_512.avif?width=512" alt="Women Dress">
+        </a>
+      </div>
+      <div class="category">
+        <h3>Kids Wear</h3>
+        <a href="product.html">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPLivAl_In20OS9iGxqgXiRCNOkh2qhAELsQ&s" alt="Kids Clothes">
+        </a>
+      </div>
+      <div class="category">
+        <h3>Accessories</h3>
+        <a href="product.html">
+          <img src="https://media.theeverygirl.com/wp-content/uploads/2024/07/the-everygirl-social-amazon-summer-accessories-2025.jpg" alt="Accessories">
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Clothify</p>
+  </footer>
+</body>
+</html>
